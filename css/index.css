@@ -204,10 +204,10 @@ header .contact:hover {
 }
 footer {
   text-align: center;
-  margin: 5% 0;
+  margin-top: 5%;
 }
 footer div {
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   font-size: 3rem;
 }
 footer div a {
