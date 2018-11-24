@@ -197,6 +197,10 @@ header .contact {
   font-size: 1.6rem;
   color: white;
   border-radius: 2px;
+  transition: 0.2s;
+}
+header .contact:hover {
+  background-color: #000fe7;
 }
 .jumbo-header {
   max-width: 100%;
