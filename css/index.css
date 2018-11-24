@@ -162,7 +162,7 @@ p {
   line-height: 1.4;
 }
 .container {
-  width: 900px;
+  width: 980px;
   margin: 0 auto;
 }
 header {
@@ -174,17 +174,18 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
-  width: 33%;
+  width: 30%;
 }
 header nav a {
   display: flex;
   font-size: 1.6rem;
   text-decoration: none;
   color: white;
+  padding: 15px 0;
 }
 header nav a i {
   color: black;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 header nav a:hover {
   border-bottom: 1px solid white;
