@@ -233,7 +233,7 @@ footer div a {
 }
 .BSoD {
   background-color: blue;
-  flex-direction: column;
+  height: 800px;
 }
 .BSoD div {
   width: 980px;
@@ -241,4 +241,5 @@ footer div a {
   color: white;
   font-size: 1.8rem;
   padding: 10% 0 15% 0;
+  line-height: 3rem;
 }
