@@ -241,7 +241,6 @@ footer div a {
   display: flex;
   align-items: center;
   background-color: #0102ac;
-  height: 800px;
   font-family: 'Press Start 2P', sans-serif;
   color: white;
 }
@@ -252,6 +251,10 @@ footer div a {
   font-size: 1.8rem;
   padding: 10% 0 15% 0;
   line-height: 3rem;
+}
+.BSoD div a {
+  text-decoration: none;
+  color: white;
 }
 .portfolio {
   text-align: center;
