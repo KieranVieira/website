@@ -1,8 +1,14 @@
 // Home Content
 
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
 .BSoD{
+    display:flex;
+    align-items:center;
     background-color: @main-color;
     height: 800px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
     div{
         width: 980px;
         margin: 0 auto;
@@ -16,4 +22,29 @@
 .portfolio {
     text-align: center;
     margin: 3% 0;
+}
+
+//BSOD
+
+.continue {
+    text-align: center;
+}
+
+.highlight {
+    margin: 0 auto;
+    text-align: center;
+    color: @main-color;
+    background-color: rgb(172, 173, 168);
+    padding: 3px;
+    width: 300px;
+}
+
+.blink {
+    animation: blink 1s steps(2, start) infinite;
+}
+  
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
 }
