@@ -269,14 +269,6 @@ footer div a {
 .BSoD div .continue {
   text-align: center;
 }
-.BSoD div .blink {
-  animation: blink 1s steps(2, start) infinite;
-}
-@keyframes blink {
-  to {
-    visibility: hidden;
-  }
-}
 .BSoD div p {
   white-space: nowrap;
   overflow: hidden;
@@ -300,6 +292,14 @@ footer div a {
   }
   100% {
     width: 100%;
+  }
+}
+.BSoD div .blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
   }
 }
 .portfolio {

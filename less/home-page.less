@@ -2,7 +2,7 @@
 //BSOD
 
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
-
+//BSoD start
 .BSoD{
     display:flex;
     align-items:center;
@@ -33,14 +33,6 @@
         .continue {
             text-align: center;
         }
-        .blink {
-        animation: blink 1s steps(2, start) infinite;
-        }
-        @keyframes blink {
-            to {
-            visibility: hidden;
-            }
-        }
         //Typing animation
         p{
             white-space: nowrap;
@@ -60,12 +52,17 @@
             50%{width: 0%;}
             100%{ width: 100%; } 
           } 
+        .blink {
+            animation: blink 1s steps(2, start) infinite;
+        }
+        @keyframes blink {
+            to {
+            visibility: hidden;
+            }
+        }
     }
 }
-
-
 //End of BSoD
-
 //Page Content
 
 .portfolio {
