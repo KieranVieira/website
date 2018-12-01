@@ -1,4 +1,5 @@
 // Home Content
+//BSOD
 
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
@@ -19,35 +20,55 @@
             text-decoration: none;
             color:white;
         }
+        .highlight {
+            font-family: 'Press Start 2P', sans-serif;
+            margin: 0 auto;
+            text-align: center;
+            color: @main-color;
+            background-color: rgb(172, 173, 168);
+            padding: 3px;
+            width: 300px;
+            font-size: 1.8rem; 
+        }
+        .continue {
+            text-align: center;
+        }
+        .blink {
+        animation: blink 1s steps(2, start) infinite;
+        }
+        @keyframes blink {
+            to {
+            visibility: hidden;
+            }
+        }
+        //Typing animation
+        p{
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            animation: type 4s steps(60, end);
+        }
+        p:nth-child(2){
+            animation: type2 6s steps(60, end);
+        }
+        
+        @keyframes type{ 
+            from { width: 0%; } 
+        } 
+        @keyframes type2{
+            0%{width: 0%;}
+            50%{width: 0%;}
+            100%{ width: 100%; } 
+          } 
     }
 }
+
+
+//End of BSoD
+
+//Page Content
 
 .portfolio {
     text-align: center;
     margin: 3% 0;
-}
-
-//BSOD
-
-.continue {
-    text-align: center;
-}
-
-.highlight {
-    margin: 0 auto;
-    text-align: center;
-    color: @main-color;
-    background-color: rgb(172, 173, 168);
-    padding: 3px;
-    width: 300px;
-}
-
-.blink {
-    animation: blink 1s steps(2, start) infinite;
-}
-  
-@keyframes blink {
-    to {
-        visibility: hidden;
-    }
 }
