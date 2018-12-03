@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 //BSoD start
 .BSoD{
+    // Clean BSOD to accomidate for Jquery animation and new animation
     display:flex;
     align-items:center;
     background-color: @main-color;
@@ -11,7 +12,7 @@
     color: white;
     div{
         width: 980px;
-        height: 870px;
+        height: 870px; // Change from hardcoded height for responsive displays
         margin: 0 auto;
         color: @secondary-color;
         font-size: 1.8rem; 
