@@ -5,7 +5,7 @@ This is a personal portfolio website mockup that I'm creating for myself as a gr
 
 The tech stack for this project is always changing and evolving as I build out my personal portfolio. I will list all the languages and frameworks used in this project and edit the README.md whenever I add/remove certain languages.
 
-##The tech is as follows:
+## The tech is as follows:
 
 * HTML
 * CSS
