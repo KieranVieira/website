@@ -12,6 +12,7 @@ The tech stack for this project is always changing and evolving as I build out m
 * JavaScript
 * LESS.js http://lesscss.org/
 * JQuery 2.2.4 https://code.jquery.com/ https://code.jquery.com/jquery-2.2.4.min.js (being used temporarily for the typing animation)
+* GSAP 2.0.2 (Greensock Animations) https://greensock.com/docs
 
 ### More tech will be added/removed as I see fit.
 

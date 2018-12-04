@@ -312,10 +312,10 @@ footer div a {
   color: darkgrey;
   padding: 5px 15px;
   border-radius: 8px;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 .sub-nav p a:hover {
-  border: 2px solid darkgray;
+  border: 1px solid darkgray;
   transition: 0.2s;
 }
 .item {
