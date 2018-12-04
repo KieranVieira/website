@@ -22,6 +22,6 @@ I am a Full Stack Web Developer and Graphic designer looking to improve user exp
 You can contact me here:
 
 * Email: kieranvieira@live.com
-* Website: VieiraIllustration.com 
+* Website: http://vieiraillustration.com/
 * Instagram: @VieiraIllustration
 * Twitter: @kirovieira
