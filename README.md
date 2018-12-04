@@ -13,5 +13,5 @@ The tech stack for this project is always changing and evolving as I build out m
 * LESS.js http://lesscss.org/
 * JQuery 2.2.4 https://code.jquery.com/ https://code.jquery.com/jquery-2.2.4.min.js (being used temporarily for the typing animation)
 
-#### More tech will be added and removed as I see fit.
+### More tech will be added/removed as I see fit.
 
