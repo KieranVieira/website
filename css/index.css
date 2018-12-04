@@ -329,3 +329,27 @@ footer div a {
 .item div h2 {
   margin-bottom: 4%;
 }
+.clients {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+.clients h1 {
+  text-align: center;
+  margin: 3%;
+}
+.clients div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.clients a {
+  transition: 0.5s;
+}
+.clients a:hover {
+  transform: scale(1.1);
+}
