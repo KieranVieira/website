@@ -15,3 +15,13 @@ The tech stack for this project is always changing and evolving as I build out m
 
 ### More tech will be added/removed as I see fit.
 
+# About me and contact info
+
+I am a Full Stack Web Developer and Graphic designer looking to improve user experience and interfaces on many levels. 
+
+You can contact me here:
+
+* Email: kieranvieira@live.com
+* Website: VieiraIllustration.com 
+* Instagram: @VieiraIllustration
+* Twitter: @kirovieira
