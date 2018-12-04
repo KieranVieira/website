@@ -231,6 +231,12 @@ footer div a {
 .twitter:hover {
   color: #1DA1F2;
 }
+.github {
+  transition: 0.2s;
+}
+.github:hover {
+  color: grey;
+}
 @font-face {
   font-family: 'Press Start 2P';
   font-style: normal;
@@ -334,7 +340,6 @@ footer div a {
   border-bottom: 1px solid black;
   width: 70%;
   margin: 0 auto;
-  padding: 5% 0;
 }
 .clients h1 {
   text-align: center;
