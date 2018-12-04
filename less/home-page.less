@@ -49,45 +49,56 @@
 //End of BSoD
 //Page Content
 
-.portfolio {
+.services {
     text-align: center;
-    margin-top: 3%;
+    margin: 2% 0;
+    h1{
+        margin-bottom: 15px;
+    }
     .item-container{
-    margin: 5% 0;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.sub-nav{
+    display: flex;
+    justify-content: space-between;
+    p{  
+        width: 30%;
+        color: darkgrey;
+        margin: 0 auto;
+        a{
+            margin: 0 2%;
+            text-align: center;
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: darkgrey;
+            padding: 5px 15px;
+            border-radius: 8px;
+            border: 1px solid white;
+            &:hover{
+                border: 1px solid darkgray;
+                transition: .2s;
+            }
+        }
     }
 }
 
 .item{
+    margin: 5% 0;
     display: flex;
-    height: 375px;
-    border: 2px solid black;
-    border-radius: 18px;
+    justify-content: space-around;
+    align-items: center;
     text-align: start;
-    margin-bottom: 5%;
-    img{
-        width: 45%;
-        height: auto;
-        border-radius: 10px;
-        border: 3px solid black;
+    i{
+        font-size: 50rem;
+        color: #1818ad;
     }
     div{
-        padding: 3%;
-        margin: 2% 3%;
-        p{
-            margin: 3% 0 7% 0;
-        }
-        a{
-            font-size: 1.5rem;
-            padding: 5px 15px;
-            background-color: black;
-            text-decoration: none;
-            color: white;
-            border: 1px solid black;
-            transition: .2s;
-            &:hover{
-                background-color: white;
-                color: black;
-            }
+        width: 35%;
+        h2{
+            margin-bottom: 4%;
         }
     }
 }

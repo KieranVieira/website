@@ -278,44 +278,54 @@ footer div a {
     visibility: hidden;
   }
 }
-.portfolio {
+.services {
   text-align: center;
-  margin-top: 3%;
+  margin: 2% 0;
 }
-.portfolio .item-container {
-  margin: 5% 0;
+.services h1 {
+  margin-bottom: 15px;
 }
-.item {
+.services .item-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.sub-nav {
   display: flex;
-  height: 375px;
-  border: 2px solid black;
-  border-radius: 18px;
-  text-align: start;
-  margin-bottom: 5%;
+  justify-content: space-between;
 }
-.item img {
-  width: 45%;
-  height: auto;
-  border-radius: 10px;
-  border: 3px solid black;
+.sub-nav p {
+  width: 30%;
+  color: darkgrey;
+  margin: 0 auto;
 }
-.item div {
-  padding: 3%;
-  margin: 2% 3%;
-}
-.item div p {
-  margin: 3% 0 7% 0;
-}
-.item div a {
-  font-size: 1.5rem;
-  padding: 5px 15px;
-  background-color: black;
+.sub-nav p a {
+  margin: 0 2%;
+  text-align: center;
+  font-size: 1.8rem;
   text-decoration: none;
-  color: white;
-  border: 1px solid black;
+  color: darkgrey;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+.sub-nav p a:hover {
+  border: 1px solid darkgray;
   transition: 0.2s;
 }
-.item div a:hover {
-  background-color: white;
-  color: black;
+.item {
+  margin: 5% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+}
+.item i {
+  font-size: 50rem;
+  color: #1818ad;
+}
+.item div {
+  width: 35%;
+}
+.item div h2 {
+  margin-bottom: 4%;
 }
