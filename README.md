@@ -25,3 +25,5 @@ You can contact me here:
 * Website: http://vieiraillustration.com/
 * Instagram: @VieiraIllustration
 * Twitter: @kirovieira
+
+### The website domain currently redirects to my previous website, when I'm happy with the changes I will push the updates and change the domain. It will be hosted at the domain kieranvieira.com
