@@ -1,22 +1,54 @@
 const controller = new ScrollMagic.Controller();
 
 const item1Scene = new ScrollMagic.Scene({
-    triggerElement: "#servicesScrollTarget"
+    triggerElement: "#servicesScrollTarget",
+    reverse: false, // animation only plays once
 })
 .setClassToggle('#firstItem', 'fade-in')
-// .setTween("#firstItem", .5, {opacity:1})
+.addIndicators({ //debugging
+    name: 'firstItemTrigger',
+    colorTrigger: 'black',
+    indent: 200,
+    colorStart: '#'
+})
 .addTo(controller)
 
 const item2Scene = new ScrollMagic.Scene({
-    triggerElement: "#secondItem"
+    triggerElement: "#secondItem",
+    reverse: false, // animation only plays once
 })
 .setClassToggle('#secondItem', 'fade-in')
-// .setTween("#firstItem", .5, {opacity:1})
+.addIndicators({ //debugging
+    name: 'Second Item Trigger',
+    colorTrigger: 'black',
+    indent: 200,
+    colorStart: '#'
+})
+
 .addTo(controller)
 
 const item3Scene = new ScrollMagic.Scene({
-    triggerElement: "#thirdItem"
+    triggerElement: "#thirdItem",
+    reverse: false, // animation only plays once
 })
 .setClassToggle('#thirdItem', 'fade-in')
-// .setTween("#firstItem", .5, {opacity:1})
+.addIndicators({ //debugging
+    name: 'thirdItemTrigger',
+    colorTrigger: 'black',
+    indent: 200,
+    colorStart: '#'
+})
+.addTo(controller)
+
+const clientsTrigger = new ScrollMagic.Scene({
+    triggerElement: ".clients",
+    reverse: false, // animation only plays once
+})
+.setClassToggle('.clients', 'fade-in')
+.addIndicators({ //debugging
+    name: 'clientsTrigger',
+    colorTrigger: 'black',
+    indent: 200,
+    colorStart: '#'
+})
 .addTo(controller)

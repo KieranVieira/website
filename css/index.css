@@ -338,11 +338,14 @@ footer div a {
 .item div h2 {
   margin-bottom: 4%;
 }
-.fade-in {
-  opacity: 1;
-  transform: translateY(0);
+.item-middle {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease-out;
 }
 .clients {
+  transition: all 1s ease-out;
+  opacity: 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 65%;
@@ -360,8 +363,12 @@ footer div a {
   align-content: center;
 }
 .clients a {
-  transition: 0.5s;
+  transition: all 0.5s ease-out;
 }
 .clients a:hover {
   transform: scale(1.1);
+}
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
 }
