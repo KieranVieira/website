@@ -3,7 +3,6 @@ var caption = '';
 
 
 $(document).ready(function() {
-    setInterval ('cursorAnimation()', 600);
     captionEl = $('#caption');
         typingEffect();
 });

@@ -319,6 +319,9 @@ footer div a {
   transition: 0.2s;
 }
 .item {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease-out;
   margin: 5% 0;
   display: flex;
   justify-content: space-around;
@@ -334,6 +337,10 @@ footer div a {
 }
 .item div h2 {
   margin-bottom: 4%;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 .clients {
   border-top: 1px solid black;
