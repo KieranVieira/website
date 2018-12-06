@@ -1,5 +1,14 @@
 const controller = new ScrollMagic.Controller();
 
+// .setClassToggle('.services', 'fade-in')
+
+const servicesScene = new ScrollMagic.Scene({
+    triggerElement: "#servicesScrollTarget",
+    reverse: false, // animation only plays once
+})
+.setClassToggle('.services', 'fade-in')
+.addTo(controller)
+
 const item1Scene = new ScrollMagic.Scene({
     triggerElement: "#servicesScrollTarget",
     reverse: false, // animation only plays once
