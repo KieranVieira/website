@@ -61,3 +61,14 @@ const clientsTrigger = new ScrollMagic.Scene({
     colorStart: '#'
 })
 .addTo(controller)
+
+const clientsLogoTrigger = new ScrollMagic.Scene({
+    triggerElement: ".logoTrigger",
+    reverse: false, // animation only plays once
+})
+.setTween(".clientsLogo", Math.random(), {scale:1, opacity:1})
+.addIndicators({ //debugging
+    name: 'clientsLogoTrigger',
+    indent: 200,
+})
+.addTo(controller)

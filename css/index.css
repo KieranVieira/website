@@ -374,3 +374,12 @@ footer div a {
   opacity: 1;
   transform: translateX(0);
 }
+.clientsLogo {
+  transition: all 1s ease-out;
+  opacity: 0;
+  transform: scale(0.6);
+}
+.clientsLogoAnim {
+  transform: rotate(0);
+  opacity: 1;
+}
