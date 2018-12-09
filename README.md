@@ -10,12 +10,15 @@ The tech stack for this project is always changing and evolving as I build out m
 * HTML
 * CSS
 * JavaScript
-* LESS.js http://lesscss.org/
-* JQuery 2.2.4 https://code.jquery.com/ https://code.jquery.com/jquery-2.2.4.min.js (being used temporarily for the typing animation)
-* GSAP 2.0.2 https://greensock.com/docs (Greensock Animations) 
-* ScrollMagic 2.0.6 http://scrollmagic.io/ (being used in conjunction with GSAP)
+* [LESS js](http://lesscss.org/)
+* [JQuery 2.2.4](https://code.jquery.com/)
+* [ScrollMagic 2.0.6](http://scrollmagic.io/)
 
-### More tech will be added/removed as I see fit.
+### Using librarys such as:
+
+* [Font-Awesome Icon library](https://fontawesome.com/)
+
+#### More tech will be added/removed as I see fit.
 
 # About me and contact info
 
@@ -28,4 +31,4 @@ You can contact me here:
 * Instagram: [@VieiraIllustration](https://www.instagram.com/vieiraillustration/)
 * Twitter: [@KiroVieira](https://twitter.com/kirovieira)
 
-### The website domain currently redirects to my previous website, when I'm happy with the changes I will push the updates and change the domain. It will be hosted at the domain http://www.kieranvieira.com
+## The website domain currently redirects to my previous website, when I'm happy with the changes I will push the updates and change the domain. It will be hosted at the domain http://www.kieranvieira.com
