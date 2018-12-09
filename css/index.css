@@ -165,6 +165,11 @@ p {
   width: 980px;
   margin: 0 auto;
 }
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
 header {
   height: 80px;
   display: flex;
@@ -294,7 +299,7 @@ footer div a {
   margin-bottom: 30px;
 }
 .services .item-container {
-  width: 60%;
+  width: 1100px;
   margin: 0 auto;
 }
 .sub-nav {
@@ -382,4 +387,12 @@ footer div a {
 .clientsLogoAnim {
   opacity: 1;
   transform: scale(1);
+}
+@media (max-width: 1000px) {
+  .item-container {
+    width: 100%;
+  }
+  .BSoD div {
+    width: 100%;
+  }
 }
