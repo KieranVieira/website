@@ -388,11 +388,31 @@ footer div a {
   opacity: 1;
   transform: scale(1);
 }
-@media (max-width: 1000px) {
+@media (max-width: 1210px) {
   .item-container {
     width: 100%;
   }
-  .BSoD div {
+  .clients {
     width: 100%;
+  }
+}
+@media (max-width: 1040px) {
+  .BSoD {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 500px) {
+  .item {
+    flex-direction: column;
+  }
+  .item i {
+    font-size: 25rem;
+    padding-bottom: 4%;
+  }
+  .item-middle i {
+    order: -1;
+  }
+  .sub-nav p {
+    line-height: 5rem;
   }
 }

@@ -158,11 +158,33 @@
 }
 //responsive
 
-@media (max-width: 1000px){
+@media (max-width: 1210px){
     .item-container{
         width: 100%;
     }
-    .BSoD div{
+    .clients{
         width: 100%;
+    }
+}
+
+@media (max-width: 1040px){
+    .BSoD{
+           font-size: 2vw; 
+    }
+}
+
+@media @mobile{
+    .item{
+       flex-direction: column; 
+       i{
+           font-size: 25rem;
+           padding-bottom: 4%;
+       }
+    }
+    .item-middle i{
+        order: -1;
+    }
+    .sub-nav p{
+        line-height: 5rem;
     }
 }
