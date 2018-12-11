@@ -14,6 +14,7 @@ header{
             text-decoration: none;
             color: @header-font-color;
             padding: 15px 0;
+            border-bottom: 1px solid @main-color;
             i{
                 color: @main-font-color;
                 margin-right: 8px;
@@ -43,6 +44,65 @@ header{
     max-width: 100%;
     background-color: @nav-bg;
 }
+.mobile-hamburger{
+    display: none;
+    margin: 5% 0 0 5%;
+    position: absolute;
+    cursor: pointer;
+}
+.mobile-menu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 99;
+    a{
+        text-align: center;
+        width: 50%;
+        font-size: 3rem;
+        text-decoration: none;
+        color: black;
+        padding: 15px 0;
+        border-radius: 5px;
+        i{
+            margin-right: 3%;
+        }
+        &:hover{
+            background-color: lightgrey;
+        }
+    }
+    .contact-mobile{
+        margin-top: 5%;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
 
 //responsive 
 
+// @media @mobile{
+//     .contact{
+//         display: none;
+//     }
+//     .mobile-hamburger{
+//         width: 98%;
+//         margin-left: 1%;
+//         a{
+//             font-size: 1.5rem;
+//         }
+//     }
+// }
+
+@media @mobile{
+    header{
+        display: none;
+    }
+    .mobile-hamburger{
+        display: flex;
+    }
+}

@@ -31,4 +31,6 @@ You can contact me here:
 * Instagram: [@VieiraIllustration](https://www.instagram.com/vieiraillustration/)
 * Twitter: [@KiroVieira](https://twitter.com/kirovieira)
 
+### [Heres a link to the trello board for this project if you want to see what I'm working on currently](https://trello.com/b/chMfeukL/personal-portfolio-checklist)
+
 ## The website domain currently redirects to my previous website, when I'm happy with the changes I will push the updates and change the domain. It will be hosted at the domain http://www.kieranvieira.com
