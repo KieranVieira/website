@@ -450,6 +450,11 @@ footer div a {
   opacity: 1;
   transform: scale(1);
 }
+@media (max-width: 1125px) {
+  .item-container {
+    width: 95%;
+  }
+}
 @media (max-width: 1024px) {
   .BSoD p {
     width: 95%;
@@ -460,9 +465,6 @@ footer div a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .item-container {
-    width: 95%;
   }
   .item i {
     font-size: 37rem;
