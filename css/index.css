@@ -251,7 +251,7 @@ header .contact:hover {
   margin-right: 3%;
 }
 .mobile-menu a:hover {
-  background-color: lightgrey;
+  background-color: #cccccc;
 }
 .mobile-menu .contact-mobile {
   margin-top: 5%;
