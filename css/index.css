@@ -216,13 +216,14 @@ header .contact:hover {
 }
 .mobile-hamburger {
   display: none;
-  margin: 5% 0 0 5%;
+  margin: 2% 0 0 2%;
   position: absolute;
   cursor: pointer;
 }
 .mobile-hamburger-close {
-  top: 3%;
-  left: 6%;
+  top: 0%;
+  left: 0%;
+  margin: 2% 0 0 2%;
   position: absolute;
   cursor: pointer;
 }
@@ -258,12 +259,20 @@ header .contact:hover {
   border: 2px solid black;
   border-radius: 5px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   header {
     display: none;
   }
   .mobile-hamburger {
     display: flex;
+  }
+}
+@media (max-width: 500px) {
+  .mobile-hamburger {
+    margin: 5% 0 0 5%;
+  }
+  .mobile-hamburger-close {
+    margin: 5% 0 0 5%;
   }
 }
 footer {
@@ -441,10 +450,32 @@ footer div a {
   opacity: 1;
   transform: scale(1);
 }
-@media (max-width: 500px) {
-  .item-container {
-    width: 100%;
+@media (max-width: 1024px) {
+  .BSoD p {
+    width: 95%;
+    margin: 0 auto;
   }
+  .BSoD div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .item-container {
+    width: 95%;
+  }
+  .item i {
+    font-size: 37rem;
+    margin-bottom: 6%;
+  }
+  .item div {
+    width: 40%;
+  }
+  html {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 500px) {
   .item {
     flex-direction: column;
   }
@@ -471,19 +502,8 @@ footer div a {
   .services h1 {
     margin: 15px 0;
   }
-  html {
-    overflow-x: hidden;
-  }
   .BSoD p {
     font-size: 2.5vw;
-    width: 95%;
-    margin: 0 auto;
-  }
-  .BSoD div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   .sub-nav p a {
     flex-direction: column;

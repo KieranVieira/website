@@ -159,10 +159,37 @@
 }
 //responsive
 
-@media @mobile{
-    .item-container{
-        width: 100%;
+@media @tablet{
+    .BSoD {
+        p{
+            width: 95%;
+            margin: 0 auto;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
+    .item-container{
+        width: 95%;
+    }
+    .item{
+        i{
+            font-size: 37rem;
+            margin-bottom: 6%;
+        }
+        div{
+            width: 40%;
+        }
+    }
+    html{
+        overflow-x: hidden; //Setting html to not overflow because of scroll animation
+    }
+}
+
+@media @mobile{
     .item{
        flex-direction: column; 
        i{
@@ -189,20 +216,9 @@
     .services h1{
         margin: 15px 0;
     }
-    html{
-        overflow-x: hidden; //Setting html to not overflow because of scroll animation
-    }
     .BSoD {
         p{
             font-size: 2.5vw; 
-            width: 95%;
-            margin: 0 auto;
-        }
-        div{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
         }
     }
     .sub-nav p a{

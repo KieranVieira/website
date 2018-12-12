@@ -46,13 +46,14 @@ header{
 }
 .mobile-hamburger{
     display: none;
-    margin: 5% 0 0 5%;
+    margin: 2% 0 0 2%;
     position: absolute;
     cursor: pointer;
 }
 .mobile-hamburger-close{
-    top: 3%;
-    left: 6%;
+    top: 0%;
+    left: 0%;
+    margin: 2% 0 0 2%;
     position: absolute;
     cursor: pointer;
 }
@@ -89,11 +90,20 @@ header{
     }
 }
 
-@media @mobile{
+@media @tablet{
     header{
         display: none;
     }
     .mobile-hamburger{
         display: flex;
+    }
+}
+
+@media @mobile{
+    .mobile-hamburger{
+        margin: 5% 0 0 5%;
+    }
+    .mobile-hamburger-close{
+        margin: 5% 0 0 5%;
     }
 }
