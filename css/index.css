@@ -485,4 +485,9 @@ footer div a {
     align-items: center;
     justify-content: center;
   }
+  .sub-nav p a {
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: unset;
+  }
 }

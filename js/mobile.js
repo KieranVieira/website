@@ -8,7 +8,7 @@ mobileHamburger.addEventListener('click', ()=>{
 })
 
 mobileHamburgerOff.addEventListener('click', ()=>{
-    TweenMax.to('.mobile-menu', .2 ,{left:'-200vw'})
-    setTimeout(()=>{mobileNav.style.display = "none"}, 210)
+    TweenMax.to('.mobile-menu', .4 ,{left:'-150vw'})
+    setTimeout(()=>{mobileNav.style.display = "none"}, 410)
     
 })
