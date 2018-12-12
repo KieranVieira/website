@@ -12,6 +12,7 @@ The tech stack for this project is always changing and evolving as I build out m
 * JavaScript
 * [LESS js](http://lesscss.org/)
 * [JQuery 2.2.4](https://code.jquery.com/)
+* [GSAP 2.0.2](https://greensock.com/)
 * [ScrollMagic 2.0.6](http://scrollmagic.io/)
 
 ### Using librarys such as:
