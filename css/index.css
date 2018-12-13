@@ -333,6 +333,7 @@ footer div a {
 .BSoD div a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 .BSoD div .highlight {
   font-family: 'Press Start 2P', sans-serif;
@@ -386,6 +387,7 @@ footer div a {
   padding: 5px 15px;
   border-radius: 5px;
   border: 1px solid white;
+  cursor: pointer;
 }
 .sub-nav p a:hover {
   border: 1px solid darkgray;
