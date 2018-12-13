@@ -479,7 +479,7 @@ footer div a {
   .item div {
     width: 40%;
   }
-  html {
+  .services {
     overflow-x: hidden;
   }
 }
