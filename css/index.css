@@ -259,6 +259,10 @@ header .contact:hover {
   border: 2px solid black;
   border-radius: 5px;
 }
+.mobile-nav-footer {
+  position: absolute;
+  bottom: 1%;
+}
 @media (max-width: 1024px) {
   header {
     display: none;
@@ -415,8 +419,8 @@ footer div a {
 .clients {
   transition: all 1s ease-out;
   opacity: 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
   width: 65%;
   margin: 0 auto;
 }
