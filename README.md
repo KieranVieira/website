@@ -34,4 +34,4 @@ You can contact me here:
 
 ### [Heres a link to the trello board for this project if you want to see what I'm working on currently](https://trello.com/b/chMfeukL/personal-portfolio-checklist)
 
-## The website domain has recently been uploaded to my main site and is in a beta phase. It is hosted at the domain http://www.kieranvieira.com
+## The website domain has recently been uploaded to my main site and is in a beta phase. It is hosted at the domain https://www.kieranvieira.com
