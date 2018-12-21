@@ -279,7 +279,7 @@ header .contact:hover {
     margin: 5% 0 0 5%;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 328px) {
   .mobile-menu a {
     width: 80%;
   }
