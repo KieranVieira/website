@@ -569,7 +569,7 @@ footer div a {
 .modal-container img:hover {
   cursor: pointer;
   transition: 0.2s;
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 .two-items {
   display: flex;
@@ -596,6 +596,11 @@ footer div a {
   width: 100%;
   height: 100%;
   padding: 10px 10px 0 10px;
+}
+.cold-ones-item {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 .vision-modal {
   max-width: 60%;
