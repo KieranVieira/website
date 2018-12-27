@@ -31,7 +31,10 @@
 
 </head>
 
-<body>
+<body> 
+
+    <!-- Navigation -->
+
     <div class="mobile-menu" style="display:none;">
         <img src="img/nav-hamburger-close.png" alt="" class="mobile-hamburger-close">
         <a href="https://github.com/KieranVieira" target="_blank"><i class="fab fa-github"></i>Github</a>
@@ -57,12 +60,17 @@
       </div>
     </section>
 
+    <!-- Blue Screen Header -->
+
     <div class="BSoD">
       <div>
         <h1 class="highlight">Kieran Vieira</h1><br />
         <p><span id="caption"></span></p>
       </div>
     </div>
+
+    <!-- Services -->
+
     <div class="services" id="servicesScrollTarget">
       <a name="services"></a>
       <h1>Services</h1>
@@ -100,6 +108,8 @@
       </div>
     </div>
 
+    <!-- Projects -->
+
     <section class="recent-projects">
         <div class="project-header">
           <h1>Personal Projects</h1>
@@ -122,7 +132,9 @@
             <a href="https://independentvision.ca/Projects" target="_blank">www.independentvision.ca</a>
           </div>
         </div>
-      </section>
+    </section>
+
+    <!-- Contact CTA -->
 
     <section class="collaborate-cta">
           <h3>Interested in collaborating?</h3>
@@ -130,21 +142,25 @@
           <a href="mailto:kieranvieira@live.com" class="cta-contact">Contact</a>
     </section>
 
+    <!-- Clients -->
+
     <div class="clients">
         <h1>Clients</h1>
         <div class="logoTrigger">
-          <a href="https://independentvision.ca/Home" target="_blank" class="clientsLogo"><img src="img/vision-client.png" alt="Vision Independent"></a>
+          <a target="_blank" class="clientsLogo vision-modal-toggle"><img src="img/vision-client.png" alt="Vision Independent"></a>
           <a href="https://gzpizza.ca/" target="_blank" class="clientsLogo clientsOdd"><img src="img/gz-client.png" alt="G'z Pizza and Wings"></a>
           <a href="https://vjrcustomhomes.com/" target="_blank" class="clientsLogo"><img src="img/Vjr-client.png" alt="VJR Custom Homes"></a>
-          <a href="https://youtu.be/6kTIzMbd--s" target="_blank" class="clientsLogo clientsOdd"><img src="img/Cold-Ones.png" alt="Cold Ones Podcast by Anything4Views"></a>
+          <a target="_blank" class="clientsLogo clientsOdd coldones-modal-toggle"><img src="img/Cold-Ones.png" alt="Cold Ones Podcast by Anything4Views"></a>
           <a href="https://cannazon.ca/" target="_blank" class="clientsLogo"><img src="img/cannazom-client.png" alt="Cannazon"></a>
           <a href="https://hoodratbreed.com/" target="_blank" class="clientsLogo clientsOdd"><img src="img/hood-client.png" alt="HoodRatBreed Photography"></a>
-          <a href="https://soundcloud.com/lucas-hami" target="_blank" class="clientsLogo"><img src="img/Lilpope-client.png" alt="Lil Pope Music"></a>
+          <a target="_blank" class="clientsLogo lilpope-modal-toggle"><img src="img/Lilpope-client.png" alt="Lil Pope Music"></a>
         </div>
     </div>
+
+    <!-- Modals -->
     
-    <div class="modal">
-      <div class="modal-container vision-modal">
+    <div class="modal visionModal">
+      <div class="modal-container">
         <div class="two-items">
           <img src="img/vision-modal/website.jpg" alt="Vision Independent Website | HTML, CSS, Jquery">
           <img src="img/vision-modal/plane.jpg" alt="Plane-Ol-Game">
@@ -160,7 +176,7 @@
       </div>
     </div>
 
-    <div class="modal">
+    <div class="modal lilPopeModal">
       <div class="modal-container lil-pope-modal">
         <img src="img/lilpope-modal/the-real-me.jpg" alt="" class="lil-pope-main">
         <div class="two-items">
@@ -170,11 +186,13 @@
       </div>
     </div>
 
-    <div class="modal">
+    <div class="modal coldOnesModal">
       <div class="modal-container">
         <img src="img/coldones-modal/temp.jpg" alt="" class="cold-ones-item">
       </div>
     </div>
+
+    <!-- Footer -->
 
     <div class="container">
       <footer>
@@ -201,6 +219,7 @@
     <script src="js/scroll.js"></script>
     <script src="js/mobile.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script src="js/modal.js"></script>
   <!-- End JS -->
 </body>
 

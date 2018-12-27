@@ -622,6 +622,7 @@ footer div a {
   transition: all 0.5s ease-out;
   opacity: 0;
   transform: scale(0.6);
+  cursor: pointer;
 }
 .clientsLogoAnim {
   opacity: 1;
