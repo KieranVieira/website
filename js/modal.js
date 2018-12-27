@@ -25,4 +25,8 @@ coldOnes.addEventListener('click', () => {
     coldOnesModal.classList.toggle('modal-active')
 })
 
-
+const gz = document.querySelector(".gz-modal-toggle")
+const gzModal = document.querySelector(".gzModal")
+gz.addEventListener('click', () => {
+    gzModal.classList.toggle('modal-active')
+})

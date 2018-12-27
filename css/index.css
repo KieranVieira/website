@@ -585,6 +585,10 @@ footer div a {
   height: 50%;
   padding: 10px 10px 0 0;
 }
+.gz-flyers {
+  display: flex;
+  height: 100%;
+}
 .six-items {
   display: flex;
   flex-wrap: wrap;
