@@ -564,7 +564,7 @@ footer div a {
 }
 .modal-container {
   max-width: 60%;
-  margin: 6% auto;
+  margin: 5% auto;
   background-color: white;
   border: 2px solid grey;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
@@ -599,6 +599,9 @@ footer div a {
   width: 33.3%;
   height: 33.3%;
   padding: 10px 10px 0 0;
+}
+.gz-modal {
+  margin: 9% auto;
 }
 .lil-pope-main {
   width: 100%;
