@@ -575,6 +575,13 @@ footer div a {
   transition: 0.2s;
   transform: scale(1.01);
 }
+.modal-close {
+  top: 0%;
+  left: 0%;
+  margin: 2% 0 0 2%;
+  position: absolute;
+  cursor: pointer;
+}
 .two-items {
   display: flex;
   justify-content: center;
@@ -687,6 +694,9 @@ footer div a {
   .lil-pope-two-items {
     flex-direction: row;
   }
+  .lil-pope-main {
+    padding: 5px 5px 0 5px;
+  }
 }
 @media (max-width: 500px) {
   .item {
@@ -735,6 +745,9 @@ footer div a {
   .modal-container {
     max-width: 95%;
     margin-top: 16%;
+  }
+  .lil-pope-modal {
+    margin-top: 1%;
   }
 }
 @media (max-width: 1700px) {
