@@ -665,7 +665,27 @@ footer div a {
     overflow-x: hidden;
   }
   .modal-container {
-    width: 90%;
+    max-width: 60%;
+    margin-top: 2%;
+  }
+  .two-items {
+    flex-direction: column;
+    padding-left: 5px;
+  }
+  .two-items a img {
+    padding: 5px 5px 0 0;
+  }
+  .six-items {
+    padding: 0 0 5px 5px;
+  }
+  .six-items a img {
+    padding: 5px 5px 0 0;
+  }
+  .cold-ones-item {
+    padding: 5px;
+  }
+  .lil-pope-two-items {
+    flex-direction: row;
   }
 }
 @media (max-width: 500px) {
@@ -712,10 +732,14 @@ footer div a {
   .project-header h1 {
     margin-bottom: 14px;
   }
+  .modal-container {
+    max-width: 95%;
+    margin-top: 16%;
+  }
 }
 @media (max-width: 1700px) {
   .project-item-container {
-    width: 90%;
+    width: 95%;
     left: 5%;
   }
 }
