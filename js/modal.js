@@ -30,3 +30,11 @@ const gzModal = document.querySelector(".gzModal")
 gz.addEventListener('click', () => {
     gzModal.classList.toggle('modal-active')
 })
+
+document.querySelectorAll('.modal-close').forEach(current => {
+    current.addEventListener('click', () => {
+        modal.forEach(cv => {
+            cv.classList.toggle('modal-active', false)
+        })
+    })
+})
