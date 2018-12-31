@@ -31,17 +31,24 @@ gz.addEventListener('click', () => {
     gzModal.classList.toggle('modal-active')
 })
 
-const cannazon = document.querySelector('.cannazon-modal')
+const cannazon = document.querySelector('.cannazon-modal-toggle')
 const cannazonModal = document.querySelector('.cannazonModal')
 cannazon.addEventListener('click', () => {
     cannazonModal.classList.toggle('modal-active')
 })
 
-const hood = document.querySelector('.hood-modal')
+const hood = document.querySelector('.hood-modal-toggle')
 const hoodModal = document.querySelector('.hoodModal')
 hood.addEventListener('click', () => {
     hoodModal.classList.toggle('modal-active')
 })
+
+const vjr = document.querySelector('.vjr-modal-toggle')
+const vjrModal = document.querySelector('.vjrModal')
+vjr.addEventListener('click', () => {
+    vjrModal.classList.toggle('modal-active')
+})
+
 
 document.querySelectorAll('.modal-close').forEach(current => {
     current.addEventListener('click', () => {
