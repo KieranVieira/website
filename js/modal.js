@@ -31,6 +31,18 @@ gz.addEventListener('click', () => {
     gzModal.classList.toggle('modal-active')
 })
 
+const cannazon = document.querySelector('.cannazon-modal')
+const cannazonModal = document.querySelector('.cannazonModal')
+cannazon.addEventListener('click', () => {
+    cannazonModal.classList.toggle('modal-active')
+})
+
+const hood = document.querySelector('.hood-modal')
+const hoodModal = document.querySelector('.hoodModal')
+hood.addEventListener('click', () => {
+    hoodModal.classList.toggle('modal-active')
+})
+
 document.querySelectorAll('.modal-close').forEach(current => {
     current.addEventListener('click', () => {
         modal.forEach(cv => {
