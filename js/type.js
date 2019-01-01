@@ -15,7 +15,7 @@ function typingEffect() {
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
-        setTimeout('type()', 35); //default 45
+        setTimeout('type()', 25); //default 45
     } else {
         captionLength = 0;
         caption = '';
