@@ -317,7 +317,7 @@ footer div a {
   font-family: 'Press Start 2P';
   font-style: normal;
   font-weight: 400;
-  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nVivY.ttf) format('truetype');
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v7/e3t4euO8T-267oIAQAu6jDQyK3nVivY.ttf) format('truetype');
 }
 .BSoD {
   display: flex;
@@ -406,7 +406,7 @@ footer div a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: start;
+  text-align: left;
 }
 .item i {
   font-size: 50rem;
