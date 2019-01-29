@@ -804,8 +804,8 @@ footer div a {
 }
 @media (max-width: 1700px) {
   .project-item-container {
-    width: 95%;
-    left: 2.5%;
+    width: 94%;
+    left: 3%;
   }
 }
 @media (max-width: 1280px) {
