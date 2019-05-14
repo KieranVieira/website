@@ -30,7 +30,7 @@ You can contact me here:
 * Email: kieranvieira@live.com
 * Website: http://kieranvieira.com/
 * Instagram: [@VieiraIllustration](https://www.instagram.com/vieiraillustration/)
-* Twitter: [@KiroVieira](https://twitter.com/kirovieira)
+* Twitter: [@KieranVieira](https://twitter.com/kieranvieira)
 
 ### [Heres a link to the trello board for this project if you want to see what I'm working on currently](https://trello.com/b/chMfeukL/personal-portfolio-checklist)
 
