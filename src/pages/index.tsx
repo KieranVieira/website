@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Navigation/>
 
       <header className="flex flex-col items-center justify-between my-20 lg:flex-row lg:my-32">
-        <div className="relative flex h-52 w-52 rounded-full border-8 mb-4 border-blue dark:border-paleBlue shadow-xl lg:order-2 lg:mb-0 select-none">
+        <div className="relative flex h-52 w-52 rounded-full border-8 mb-4 border-paleBlue shadow-xl lg:order-2 lg:mb-0 select-none">
           <Image src={images.displayPicture} className='rounded-full' draggable={false}/>
           <div className='absolute -top-10 -left-14'>
             <Image src={icons.avatarArrow} draggable={false}/>

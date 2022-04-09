@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
 
 export const Footer = () => {
   return (
-    <footer className="flex flex-row items-center justify-between w-full border-t border-lightGray dark:border-gray py-8">
+    <footer className="flex flex-row items-center justify-between w-full border-t border-gray py-8">
       <div>
         <h3 className="text-gray mb-1">Kieran Vieira</h3>
         <h6 className="text-gray">© {year}</h6>

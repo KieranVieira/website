@@ -10,7 +10,7 @@ interface Props {
 
 export const ProjectCard: React.FC<Props> = ({ projectImage, title, link }) => {
   return (
-    <a href={link} className="clickable flex flex-col justify-between bg-lightBlue dark:bg-paleBlue rounded-xl w-full text-white shadow-lg hover:shadow-2xl" target='_blank'>
+    <a href={link} className="clickable flex flex-col justify-between bg-paleBlue rounded-xl w-full text-white shadow-lg hover:shadow-2xl" target='_blank'>
       <div className="flex flex-grow align-center justify-center my-2">
         <Image src={projectImage} draggable={false} objectFit='contain'/>
       </div>
