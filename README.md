@@ -1,37 +1,34 @@
-# Read Me
-This is a personal portfolio website mockup that I'm creating for myself as a graphic designer, and full stack web developer. This repository is intended to serve as a place to store my progress on my personal portfolio.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Tech Stack
+## Getting Started
 
-The tech stack for this project is always changing and evolving as I build out my personal portfolio. I will list all the languages and frameworks used in this project and edit the README.md whenever I add/remove certain languages.
+First, run the development server:
 
-### The tech is as follows:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-* HTML
-* CSS
-* JavaScript
-* [LESS.js](http://lesscss.org/)
-* [JQuery 2.2.4](https://code.jquery.com/)
-* [GSAP 2.0.2](https://greensock.com/)
-* [ScrollMagic 2.0.6](http://scrollmagic.io/)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Using librarys such as:
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-* [Font-Awesome Icon library](https://fontawesome.com/)
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-#### More tech will be added/removed as I see fit.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-# About me and contact info
+## Learn More
 
-I am a Full Stack Web Developer and Graphic designer looking to improve user experience and interfaces on many levels. 
+To learn more about Next.js, take a look at the following resources:
 
-You can contact me here:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-* Email: kieranvieira@live.com
-* Website: http://kieranvieira.com/
-* Instagram: [@VieiraIllustration](https://www.instagram.com/vieiraillustration/)
-* Twitter: [@KieranVieira](https://twitter.com/kieranvieira)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### [Heres a link to the trello board for this project if you want to see what I'm working on currently](https://trello.com/b/chMfeukL/personal-portfolio-checklist)
+## Deploy on Vercel
 
-## The website domain has recently been uploaded to my main site and is in a beta phase. It is hosted at the domain https://www.kieranvieira.com
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
