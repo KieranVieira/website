@@ -11,8 +11,8 @@ interface Props {
 export const TextButton: React.FC<Props> = ({ label, icon, link, className }) => {
   const extraClass = className ?? ''
   return (
-    <a href={link} className={`clickable flex box-border items-center mt-1 ${extraClass}`} target='_blank'>
-      {!!icon && <Image src={icon} draggable={false} />}
+    <a href={link} rel="noreferrer" className={`clickable flex box-border items-center mt-1 ${extraClass}`} target='_blank'>
+      {!!icon && <Image src={icon} draggable={false} alt={`${label} icon`} />}
       <p className='pl-2'>{label}</p>
     </a>
   )

@@ -1,22 +1,38 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import { useCallback, useState } from 'react';
 
-import LocationPin from '../assets/icons/location_pin.svg';
+import { icons } from '../assets';
 import { LOCATION } from '../constants';
 import { TextButton } from './TextButton';
 
 export const Navigation = () => {
-  return (
-    <nav className='flex flex-row justify-between my-10 w-full'>
-      <ul className='hidden none flex-row items-center space-x-10 text-lg sm:flex'>
-        <li>
-          <Link href='/'>Home</Link>
-        </li>
-        <li>
-          <Link href='/contact'>Contact</Link>
-        </li>
-      </ul>
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-      <TextButton icon={LocationPin} label={LOCATION} link={`https://www.google.com/maps/place/${LOCATION}`}/>
-    </nav>
+  const handleClickHamburger = useCallback(() => {
+    setHamburgerOpen(v => !v);
+  }, []);
+
+  return (
+    <>
+      <nav className='flex flex-row justify-between my-4 lg:my-10 w-full'>
+        <div onClick={handleClickHamburger} className='clickable flex items-center justify-center sm:hidden'>
+          <Image src={icons.hamburger} alt='Hamburger Menu'/>
+        </div>
+
+        <ul className='navList'>
+          <li>
+            <Link href='/'>Home</Link>
+          </li>
+          <li>
+            <Link href='/contact'>Contact</Link>
+          </li>
+        </ul>
+
+        <TextButton icon={icons.locationPin} label={LOCATION} link={`https://www.google.com/maps/place/${LOCATION}`}/>
+      </nav>
+      
+    </>
+
   )
 }

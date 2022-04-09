@@ -12,9 +12,9 @@ export const Footer = () => {
         <h6 className="text-gray">© {year}</h6>
       </div>
       <div className="flex flex-row items-center space-x-4 select-none">
-        <IconButton source={icons.linkedin} link={LINKEDIN_LINK} />
-        <IconButton source={icons.twitter} link={TWITTER_LINK} />
-        <IconButton source={icons.github} link={GITHUB_LINK} />
+        <IconButton source={icons.linkedin} link={LINKEDIN_LINK} alt='Linkedin Button' />
+        <IconButton source={icons.twitter} link={TWITTER_LINK} alt='Twitter Button' />
+        <IconButton source={icons.github} link={GITHUB_LINK} alt='Github Button' />
       </div>
     </footer>
   )

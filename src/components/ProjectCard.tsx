@@ -10,14 +10,14 @@ interface Props {
 
 export const ProjectCard: React.FC<Props> = ({ projectImage, title, link }) => {
   return (
-    <a href={link} className="clickable flex flex-col justify-between bg-paleBlue rounded-xl w-full text-white shadow-lg hover:shadow-2xl" target='_blank'>
+    <a href={link} rel="noreferrer" className="clickable flex flex-col justify-between bg-paleBlue rounded-xl w-full text-white shadow-lg hover:shadow-2xl" target='_blank'>
       <div className="flex flex-grow align-center justify-center my-2">
-        <Image src={projectImage} draggable={false} objectFit='contain'/>
+        <Image src={projectImage} draggable={false} objectFit='contain' alt={`${title} project image`}/>
       </div>
       <div className="bg-blue px-7 py-5 rounded-b-xl">
         <div className="flex flex-row items-center justify-between">
           <h3>{title}</h3>
-          <Image src={icons.arrow} draggable={false} />
+          <Image src={icons.arrow} draggable={false} alt='' />
         </div>
         <h6 className="mt-1">Project</h6>
       </div>

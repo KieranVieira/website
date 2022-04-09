@@ -14,6 +14,10 @@
   .clickable {
     @apply select-none cursor-pointer hover:scale-105 transition-all;
   }
+
+  .navList {
+    @apply hidden select-none flex-row items-center space-x-10 text-lg sm:flex;
+  }
 }
 
 nav ul li {
