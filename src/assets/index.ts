@@ -4,8 +4,10 @@ import docker from '../assets/icons/docker.svg';
 import git from '../assets/icons/git.svg';
 import github from '../assets/icons/github.svg';
 import graphql from '../assets/icons/graphql.svg';
+import hamburger from '../assets/icons/hamburger.svg';
 import k8s from '../assets/icons/k8s.svg';
 import linkedin from '../assets/icons/linkedin.svg';
+import locationPin from '../assets/icons/location_pin.svg';
 import nodejs from '../assets/icons/nodejs.svg';
 import psql from '../assets/icons/psql.svg';
 import react from '../assets/icons/react.svg';
@@ -26,8 +28,10 @@ const icons = {
   git,
   github,
   graphql,
+  hamburger,
   k8s,
   linkedin,
+  locationPin,
   nodejs,
   psql,
   react,
