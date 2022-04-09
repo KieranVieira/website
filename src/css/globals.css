@@ -17,7 +17,7 @@ nav ul li {
 }
 
 body {
-  @apply flex flex-col items-center bg-gradient-to-b min-h-screen min-w-full bg-white dark:from-deepBlue dark:to-darkDeepBlue text-black dark:text-white;
+  @apply flex flex-col items-center bg-gradient-to-b min-h-screen min-w-full bg-white dark:from-deepBlue dark:to-darkDeepBlue text-darkGray dark:text-white;
 }
 
 h1 {
