@@ -1,4 +1,5 @@
 import arrow from '../assets/icons/arrow.svg';
+import avatarArrow from '../assets/icons/avatar_arrow.svg';
 import docker from '../assets/icons/docker.svg';
 import git from '../assets/icons/git.svg';
 import github from '../assets/icons/github.svg';
@@ -14,13 +15,13 @@ import twitter from '../assets/icons/twitter.svg';
 import typescript from '../assets/icons/typescript.svg';
 import unity from '../assets/icons/unity.svg';
 
-import avatarArrow from '../assets/images/avatar_arrow.svg';
 import bigflop from '../assets/images/bigflop.png';
 import displayPicture from '../assets/images/display_picture.jpg';
 import ladNetwork from '../assets/images/lad_network.png';
 
 const icons = {
   arrow,
+  avatarArrow,
   docker,
   git,
   github,
@@ -38,7 +39,6 @@ const icons = {
 }
 
 const images = {
-  avatarArrow,
   bigflop,
   displayPicture,
   ladNetwork
