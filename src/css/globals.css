@@ -8,12 +8,16 @@
   }
 
   .section-content {
-    @apply mt-8 mb-16
+    @apply mt-8 mb-16;
+  }
+
+  .clickable {
+    @apply select-none cursor-pointer hover:scale-105 transition-all;
   }
 }
 
 nav ul li {
-  @apply hover:scale-105 transition-transform
+  @apply clickable;
 }
 
 body {

@@ -27,7 +27,7 @@ export const Navigation = () => {
 
       <div className='flex flex-row items-center'>
         <TextButton icon={LocationPin} label={LOCATION} link={`https://www.google.com/maps/place/${LOCATION}`}/>
-        <div onClick={handlePressThemeToggle} className='flex items-center justify-center bg-black text-white dark:text-black h-7 w-7 ml-3 rounded-2xl text-sm hover:cursor-pointer hover:scale-110 transition-transform'>
+        <div onClick={handlePressThemeToggle} className='clickable flex items-center justify-center bg-black text-white dark:text-black h-7 w-7 ml-3 rounded-2xl text-sm'>
           {darkMode ? '🌙' : '☀️'}
         </div>
       </div>

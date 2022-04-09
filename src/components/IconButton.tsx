@@ -7,7 +7,7 @@ interface Props {
 
 export const IconButton: React.FC<Props> = ({ source, link }) => {
   return (
-    <a href={link} className="cursor-pointer hover:scale-110 transition-all" target='_blank'>
+    <a href={link} className="clickable" target='_blank'>
       <Image src={source}/>
     </a>
   )
