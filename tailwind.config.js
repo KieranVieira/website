@@ -5,10 +5,9 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm: '490px',
+      md: '680px',
+      lg: '748px',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -16,7 +15,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        gray: '#5F5E62',
+        lightGray: '#D6D6D6',
         blue: '#333AC2',
+        lightBlue: '#AFAEE3',
         paleBlue: '#1B1D32',
         darkPaleBlue: '#141428',
         deepBlue: '#110F2B',
@@ -25,4 +27,5 @@ module.exports = {
     }
   },
   plugins: [],
+  darkMode: 'class'
 }

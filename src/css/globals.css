@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .content-container {
+    @apply w-full px-6 lg:w-[700px] lg:px-0;
+  }
+
+  .section-content {
+    @apply mt-8 mb-16
+  }
+}
+
+nav ul li {
+  @apply hover:scale-105 transition-transform
+}
+
+body {
+  @apply flex flex-col items-center bg-gradient-to-b min-h-screen min-w-full bg-white dark:from-deepBlue dark:to-darkDeepBlue text-black dark:text-white;
+}
+
+h1 {
+  @apply font-bold text-4xl;
+}
+
+h2 {
+  @apply font-bold text-2xl mb-4 mt-2;
+}
+
+h3 {
+  @apply font-bold text-xl;
+}
+
+h6 {
+  @apply text-xs;
+}
+
+p {
+  @apply text-base leading-8;
+}
+
+button {
+  @apply relative flex justify-center items-center bg-blue rounded-lg py-3 w-44;
+}
+
+form label {
+  @apply mb-2;
+}
+
+form input, form textarea {
+  @apply mb-4 h-10 bg-darkPaleBlue rounded-md;
+}
+
+form textarea {
+  @apply min-h-[240px];
+}
